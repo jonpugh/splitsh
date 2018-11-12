@@ -1,0 +1,26 @@
+{
+    "name": "toni/splitsh",
+    "description": "splitsh-lite binary",
+    "type": "library",
+    "keywords": [
+        "splitsh-lite",
+        "monorepo",
+        "tools",
+        "bin"
+    ],
+    "homepage": "https://github.com/toni/splitsh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthonius Munthi",
+            "homepage": "https://itstoni.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "bin": [
+        "bin/splitsh"
+    ]
+}
