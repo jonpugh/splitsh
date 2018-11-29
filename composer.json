@@ -21,10 +21,10 @@
         "bin-dir": "bin"
     },
     "bin": [
-        "bin/splitsh"
+        "bin/splitsh-install"
     ],
     "scripts": {
-        "splitsh-install": "bin/install",
+        "splitsh-install": "bin/splitsh-install",
         "post-install-cmd": [
             "@splitsh-install"
         ],
