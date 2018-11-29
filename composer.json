@@ -22,5 +22,14 @@
     },
     "bin": [
         "bin/splitsh"
-    ]
+    ],
+    "scripts": {
+        "splitsh-install": "bin/install",
+        "post-install-cmd": [
+            "@splitsh-install"
+        ],
+        "post-update-command": [
+            "@splitsh-install"
+        ]
+    }
 }
