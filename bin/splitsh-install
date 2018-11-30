@@ -27,7 +27,7 @@ $fileMap = [
     'linux' => 'linux.amd64'
 ];
 
-$os = isset($argv[1]) ? $argv[1]:strtolower(PHP_OS_FAMILY);
+$os = isset($argv[1]) ? $argv[1]:strtolower(PHP_OS);
 $os = isset($fileMap[$os]) ? $os:'linux';
 $file = $fileMap[$os];
 extractRelease();
