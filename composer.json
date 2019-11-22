@@ -21,7 +21,8 @@
         "bin-dir": "bin"
     },
     "bin": [
-        "bin/splitsh-install"
+        "bin/splitsh-install",
+        "bin/splitsh-lite"
     ],
     "scripts": {
         "splitsh-install": "bin/splitsh-install",
