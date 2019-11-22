@@ -26,10 +26,10 @@
     ],
     "scripts": {
         "splitsh-install": "bin/splitsh-install",
-        "post-install-cmd": [
+        "pre-install-cmd": [
             "@splitsh-install"
         ],
-        "post-update-command": [
+        "pre-update-command": [
             "@splitsh-install"
         ]
     }
